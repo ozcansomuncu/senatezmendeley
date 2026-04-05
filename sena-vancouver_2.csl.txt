@@ -211,7 +211,10 @@
           <group delimiter=". ">
             <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
-            <text macro="locator"/>
+            <group delimiter=", ">
+              <text macro="locator"/>
+              <text macro="access"/>
+            </group>
           </group>
         </else>
       </choose>
