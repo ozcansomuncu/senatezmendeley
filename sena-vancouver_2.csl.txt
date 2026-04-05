@@ -111,7 +111,9 @@
         <text variable="DOI"/>
       </else-if>
       <else>
-        <text macro="access"/>
+        <group prefix=" ">
+          <text macro="access"/>
+        </group>
       </else>
     </choose>
   </macro>
