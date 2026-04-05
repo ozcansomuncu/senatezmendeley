@@ -57,7 +57,7 @@
     <choose>
       <if variable="URL accessed" match="all">
         <group delimiter=", ">
-          <group prefix="(" suffix=")">
+          <group>
             <text term="accessed" suffix=" "/>
             <date variable="accessed">
               <date-part name="day" form="numeric-leading-zeros" suffix="."/>
